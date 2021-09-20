@@ -7,7 +7,7 @@ let userTemp = prompt("What tempreture is it outside in Fahrenheit? (use a numbe
 //Creates a dictionary that contains the messages we use to output to the user.
 let theMessages = ["wear a warm coat, hat, scarf and gloves.", "wear a warm coat but you won't need a hat, scarf or gloves.", "wear your warmest coat, a warm hat, a scarf, and warm gloves.", "wear a warm coat, hat and gloves. Maybe a scarf too."]
 
-
+//this creates a switch conditional that goes through and determins if the variables match the conditions, if true, out puts the appropriate message from the array. 
 switch (true){
   case(userState === "NE" && userTemp < 32):
     console.log(`${userName}, ${theMessages[0]}`);
